@@ -1,0 +1,35 @@
+# ---------------------------------
+# 1. DOSSIERS À IGNORER
+# ---------------------------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/.vscode/
+
+# ---------------------------------
+# 2. FICHIERS À IGNORER
+# ---------------------------------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.vsconfig
+
+# ---------------------------------
+# 3. FICHIERS SYSTÈME
+# ---------------------------------
+.DS_Store
+Thumbs.db
