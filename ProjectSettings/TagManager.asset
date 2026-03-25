@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - fond
   - Water
   - UI
   - Ground
@@ -40,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: foond
+    uniqueID: 993571625
     locked: 0
   m_RenderingLayers:
   - Default
