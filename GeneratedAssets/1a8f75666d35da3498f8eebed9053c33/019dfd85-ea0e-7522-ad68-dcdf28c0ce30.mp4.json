@@ -1,0 +1,38 @@
+{
+    "asset": "1a8f75666d35da3498f8eebed9053c33",
+    "fileName": "019dfd85-ea0e-7522-ad68-dcdf28c0ce30.mp4",
+    "prompt": "2D side-view animation of a skeleton taking its own head off with its hands, matching the art style of the reference image. The skeleton reaches up, grabs its skull, and pulls it down to chest level. 4x4 grid.",
+    "negativePrompt": "",
+    "model": "video-kling-v3-i2v-pro",
+    "modelName": "Kling V3 I2V Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Spritesheet",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 9,
+                "doodle": [],
+                "label": "First",
+                "strength": 1.0,
+                "invertStrength": false,
+                "assetReferenceGuid": "498c4804f99304b48966ca54cc7cdbb7",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 0,
+        "height": 0
+    },
+    "spriteSheet": true,
+    "duration": 5.0
+}

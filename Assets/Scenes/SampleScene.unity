@@ -532,6 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlimeMovement
   moveSpeed: 8
   climbSpeed: 5
+  rotationSpeed: 15
   jumpForce: 10
   groundCheck: {fileID: 1765754489}
   groundLayer:
