@@ -1,46 +1,57 @@
 fileFormatVersion: 2
-guid: 1e35fd8c6687c4648a2bff6503b23e63
+guid: 1a8f75666d35da3498f8eebed9053c33
+labels:
+- UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4366591619932752209
-    second: slime_V4_0
+      213: -8061467883829727245
+    second: Squelette_PrendreTete_0
   - first:
-      213: -5956310151692884591
-    second: slime_V4_1
+      213: -5677051344525644038
+    second: Squelette_PrendreTete_1
   - first:
-      213: 3167436652199778536
-    second: slime_V4_2
+      213: -7051613120466418320
+    second: Squelette_PrendreTete_2
   - first:
-      213: 4936934503467035743
-    second: slime_V4_3
+      213: 49173187343583911
+    second: Squelette_PrendreTete_3
   - first:
-      213: 2304362164119093657
-    second: slime_V4_4
+      213: -8966332857685294054
+    second: Squelette_PrendreTete_4
   - first:
-      213: -5257174189511602594
-    second: slime_V4_5
+      213: 3513119629858952685
+    second: Squelette_PrendreTete_5
   - first:
-      213: 4912338061828339599
-    second: slime_V4_6
+      213: -432691792517292942
+    second: Squelette_PrendreTete_6
   - first:
-      213: -2183294636444665140
-    second: slime_V4_7
+      213: -454133632768146023
+    second: Squelette_PrendreTete_7
   - first:
-      213: -3385512562747563421
-    second: slime_V4_8
+      213: -8242807749989851082
+    second: Squelette_PrendreTete_8
   - first:
-      213: 1199974110807919926
-    second: slime_V4_9
+      213: -6163607786096468711
+    second: Squelette_PrendreTete_9
   - first:
-      213: -3050014197112445567
-    second: slime_V4_10
+      213: 3493146158890164832
+    second: Squelette_PrendreTete_10
   - first:
-      213: 1514843218033639652
-    second: slime_V4_11
+      213: -7253020413107737242
+    second: Squelette_PrendreTete_11
   - first:
-      213: 927762905360768158
-    second: slime_V4_12
+      213: -8568801589493483134
+    second: Squelette_PrendreTete_12
+  - first:
+      213: -6271715857659959035
+    second: Squelette_PrendreTete_13
+  - first:
+      213: 1294925809733863736
+    second: Squelette_PrendreTete_14
+  - first:
+      213: -2928050499473874063
+    second: Squelette_PrendreTete_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +98,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 1024
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,7 +122,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,370 +143,357 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_V4_0
+      name: Squelette_PrendreTete_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffeb10dba9ef1090800000000000000
+      internalID: -8061467883829727245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe25e561ef0731b0800000000000000
+      internalID: -5677051344525644038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0758d1d5a33a32e90800000000000000
+      internalID: -7051613120466418320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa861cd0c2bea000800000000000000
+      internalID: 49173187343583911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1441c785cf219380800000000000000
+      internalID: -8966332857685294054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5d137a0bb11c030800000000000000
+      internalID: 3513119629858952685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c97c17b15cef9f0800000000000000
+      internalID: -432691792517292942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9950c4afdd792b9f0800000000000000
+      internalID: -454133632768146023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630a40e060aab9d80800000000000000
+      internalID: -8242807749989851082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d53eeef57767aa0800000000000000
+      internalID: -6163607786096468711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0622b2d8ce52a7030800000000000000
+      internalID: 3493146158890164832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d6e08cc58185b90800000000000000
+      internalID: -7253020413107737242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_PrendreTete_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66b835da61f410e4783076f732843263
-      internalID: -4366591619932752209
+      spriteID: 28930739a50851980800000000000000
+      internalID: -8568801589493483134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_V4_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f59318645d2369d4f8ede38de04c9f0b
-      internalID: -5956310151692884591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbd0726856f55ff4cb18ce0530cc2874
-      internalID: 3167436652199778536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c42e627db3a3804f88ced42234eabd2
-      internalID: 4936934503467035743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2f7f75149244784a872b267c8afbcbf
-      internalID: 2304362164119093657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d675bed4edf36844d9184fa635ce4a9a
-      internalID: -5257174189511602594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8575cf5f4c5a5544fb16b010f724ea08
-      internalID: 4912338061828339599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e17d0a2f61c1c104287bb2fdccafa94d
-      internalID: -2183294636444665140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_8
+      name: Squelette_PrendreTete_13
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2fa43726a077ce94d87d303b13fe00c0
-      internalID: -3385512562747563421
+      spriteID: 5096efb08a366f8a0800000000000000
+      internalID: -6271715857659959035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_V4_9
+      name: Squelette_PrendreTete_14
       rect:
         serializedVersion: 2
-        x: 288
+        x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9cb58d0fb58c5c2478869137d4f1a9b6
-      internalID: 1199974110807919926
+      spriteID: 8390ca3c92088f110800000000000000
+      internalID: 1294925809733863736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_V4_10
+      name: Squelette_PrendreTete_15
       rect:
         serializedVersion: 2
-        x: 320
+        x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c953c8e4639d98a49b80be7bc0dc41b8
-      internalID: -3050014197112445567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5525d66dc106ffc44837585870761680
-      internalID: 1514843218033639652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_12
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f08d300d1cb8240aa1e42855658bc7
-      internalID: 927762905360768158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7091ca52bac60d54d92a7489bc342b46
-      internalID: 1764832128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_14
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f2de1d0eeccd68408241d25a18644c0
-      internalID: -1024942110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9907e740cb69742498add8ca2ea209ae
-      internalID: -365251284
+      spriteID: 173647e85997d57d0800000000000000
+      internalID: -2928050499473874063
       vertices: []
       indices: 
       edges: []
@@ -504,7 +502,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b6426fdb16f74ef42a29bdcae0774257
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -512,26 +510,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      slime_V4_0: -4366591619932752209
-      slime_V4_1: -5956310151692884591
-      slime_V4_10: -3050014197112445567
-      slime_V4_11: 1514843218033639652
-      slime_V4_12: 927762905360768158
-      slime_V4_13: 1764832128
-      slime_V4_14: -1024942110
-      slime_V4_15: -365251284
-      slime_V4_2: 3167436652199778536
-      slime_V4_3: 4936934503467035743
-      slime_V4_4: 2304362164119093657
-      slime_V4_5: -5257174189511602594
-      slime_V4_6: 4912338061828339599
-      slime_V4_7: -2183294636444665140
-      slime_V4_8: -3385512562747563421
-      slime_V4_9: 1199974110807919926
+      Squelette_PrendreTete_0: -8061467883829727245
+      Squelette_PrendreTete_1: -5677051344525644038
+      Squelette_PrendreTete_10: 3493146158890164832
+      Squelette_PrendreTete_11: -7253020413107737242
+      Squelette_PrendreTete_12: -8568801589493483134
+      Squelette_PrendreTete_13: -6271715857659959035
+      Squelette_PrendreTete_14: 1294925809733863736
+      Squelette_PrendreTete_15: -2928050499473874063
+      Squelette_PrendreTete_2: -7051613120466418320
+      Squelette_PrendreTete_3: 49173187343583911
+      Squelette_PrendreTete_4: -8966332857685294054
+      Squelette_PrendreTete_5: 3513119629858952685
+      Squelette_PrendreTete_6: -432691792517292942
+      Squelette_PrendreTete_7: -454133632768146023
+      Squelette_PrendreTete_8: -8242807749989851082
+      Squelette_PrendreTete_9: -6163607786096468711
+      frame_0: -1164412396
+      frame_1: 757924066
+      frame_10: -892345454
+      frame_11: -231812058
+      frame_12: -1670842261
+      frame_13: 1787772235
+      frame_14: -967413681
+      frame_15: -1390884310
+      frame_2: 967002402
+      frame_3: 76794690
+      frame_4: 802956178
+      frame_5: -2059073566
+      frame_6: -1019564164
+      frame_7: 703832381
+      frame_8: 1629346086
+      frame_9: -2129818557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

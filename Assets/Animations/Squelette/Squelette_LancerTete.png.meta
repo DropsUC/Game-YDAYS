@@ -1,46 +1,57 @@
 fileFormatVersion: 2
-guid: 1e35fd8c6687c4648a2bff6503b23e63
+guid: 3f3709354c472534bbc29dfaf75c658f
+labels:
+- UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4366591619932752209
-    second: slime_V4_0
+      213: 1832326649222483882
+    second: Squelette_LancerTete_0
   - first:
-      213: -5956310151692884591
-    second: slime_V4_1
+      213: 7924895687089092188
+    second: Squelette_LancerTete_1
   - first:
-      213: 3167436652199778536
-    second: slime_V4_2
+      213: 8552723049821783228
+    second: Squelette_LancerTete_2
   - first:
-      213: 4936934503467035743
-    second: slime_V4_3
+      213: 1275380122831342455
+    second: Squelette_LancerTete_3
   - first:
-      213: 2304362164119093657
-    second: slime_V4_4
+      213: -6991306340047923221
+    second: Squelette_LancerTete_4
   - first:
-      213: -5257174189511602594
-    second: slime_V4_5
+      213: 4059744972356522372
+    second: Squelette_LancerTete_5
   - first:
-      213: 4912338061828339599
-    second: slime_V4_6
+      213: 4794647013106882344
+    second: Squelette_LancerTete_6
   - first:
-      213: -2183294636444665140
-    second: slime_V4_7
+      213: -8127411509642523933
+    second: Squelette_LancerTete_7
   - first:
-      213: -3385512562747563421
-    second: slime_V4_8
+      213: 7203927532946589805
+    second: Squelette_LancerTete_8
   - first:
-      213: 1199974110807919926
-    second: slime_V4_9
+      213: -6215376316595014089
+    second: Squelette_LancerTete_9
   - first:
-      213: -3050014197112445567
-    second: slime_V4_10
+      213: -1497904808860433182
+    second: Squelette_LancerTete_10
   - first:
-      213: 1514843218033639652
-    second: slime_V4_11
+      213: 7944584094635106034
+    second: Squelette_LancerTete_11
   - first:
-      213: 927762905360768158
-    second: slime_V4_12
+      213: 8979583429986179711
+    second: Squelette_LancerTete_12
+  - first:
+      213: 1762964377484531168
+    second: Squelette_LancerTete_13
+  - first:
+      213: -2839251426660372944
+    second: Squelette_LancerTete_14
+  - first:
+      213: -3426780977916739992
+    second: Squelette_LancerTete_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +98,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 1024
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,7 +122,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,370 +143,357 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_V4_0
+      name: Squelette_LancerTete_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf436f116bbd6910800000000000000
+      internalID: 1832326649222483882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5678f6b3a2eafd60800000000000000
+      internalID: 7924895687089092188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb44ceeac4061b670800000000000000
+      internalID: 8552723049821783228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bc4f6e67f03b110800000000000000
+      internalID: 1275380122831342455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7d18ddce3e9fe90800000000000000
+      internalID: -6991306340047923221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4811dfbfa8c175830800000000000000
+      internalID: 4059744972356522372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8279f972e020a8240800000000000000
+      internalID: 4794647013106882344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea0658fa42a53f80800000000000000
+      internalID: -8127411509642523933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6800f45ced79f360800000000000000
+      internalID: 7203927532946589805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7367af7ab2c8eb9a0800000000000000
+      internalID: -6215376316595014089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e44688338f563be0800000000000000
+      internalID: -1497904808860433182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe91f05425d04e60800000000000000
+      internalID: 7944584094635106034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squelette_LancerTete_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66b835da61f410e4783076f732843263
-      internalID: -4366591619932752209
+      spriteID: f7a5f4fbd83ed9c70800000000000000
+      internalID: 8979583429986179711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_V4_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f59318645d2369d4f8ede38de04c9f0b
-      internalID: -5956310151692884591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbd0726856f55ff4cb18ce0530cc2874
-      internalID: 3167436652199778536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c42e627db3a3804f88ced42234eabd2
-      internalID: 4936934503467035743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2f7f75149244784a872b267c8afbcbf
-      internalID: 2304362164119093657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d675bed4edf36844d9184fa635ce4a9a
-      internalID: -5257174189511602594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8575cf5f4c5a5544fb16b010f724ea08
-      internalID: 4912338061828339599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e17d0a2f61c1c104287bb2fdccafa94d
-      internalID: -2183294636444665140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_8
+      name: Squelette_LancerTete_13
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2fa43726a077ce94d87d303b13fe00c0
-      internalID: -3385512562747563421
+      spriteID: 0e512afb2ce477810800000000000000
+      internalID: 1762964377484531168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_V4_9
+      name: Squelette_LancerTete_14
       rect:
         serializedVersion: 2
-        x: 288
+        x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9cb58d0fb58c5c2478869137d4f1a9b6
-      internalID: 1199974110807919926
+      spriteID: 03e23e5ded3f898d0800000000000000
+      internalID: -2839251426660372944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_V4_10
+      name: Squelette_LancerTete_15
       rect:
         serializedVersion: 2
-        x: 320
+        x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c953c8e4639d98a49b80be7bc0dc41b8
-      internalID: -3050014197112445567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5525d66dc106ffc44837585870761680
-      internalID: 1514843218033639652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_12
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f08d300d1cb8240aa1e42855658bc7
-      internalID: 927762905360768158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7091ca52bac60d54d92a7489bc342b46
-      internalID: 1764832128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_14
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f2de1d0eeccd68408241d25a18644c0
-      internalID: -1024942110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_V4_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9907e740cb69742498add8ca2ea209ae
-      internalID: -365251284
+      spriteID: 86ef4304bd0a170d0800000000000000
+      internalID: -3426780977916739992
       vertices: []
       indices: 
       edges: []
@@ -504,7 +502,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b6426fdb16f74ef42a29bdcae0774257
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -512,26 +510,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      slime_V4_0: -4366591619932752209
-      slime_V4_1: -5956310151692884591
-      slime_V4_10: -3050014197112445567
-      slime_V4_11: 1514843218033639652
-      slime_V4_12: 927762905360768158
-      slime_V4_13: 1764832128
-      slime_V4_14: -1024942110
-      slime_V4_15: -365251284
-      slime_V4_2: 3167436652199778536
-      slime_V4_3: 4936934503467035743
-      slime_V4_4: 2304362164119093657
-      slime_V4_5: -5257174189511602594
-      slime_V4_6: 4912338061828339599
-      slime_V4_7: -2183294636444665140
-      slime_V4_8: -3385512562747563421
-      slime_V4_9: 1199974110807919926
+      Squelette_LancerTete_0: 1832326649222483882
+      Squelette_LancerTete_1: 7924895687089092188
+      Squelette_LancerTete_10: -1497904808860433182
+      Squelette_LancerTete_11: 7944584094635106034
+      Squelette_LancerTete_12: 8979583429986179711
+      Squelette_LancerTete_13: 1762964377484531168
+      Squelette_LancerTete_14: -2839251426660372944
+      Squelette_LancerTete_15: -3426780977916739992
+      Squelette_LancerTete_2: 8552723049821783228
+      Squelette_LancerTete_3: 1275380122831342455
+      Squelette_LancerTete_4: -6991306340047923221
+      Squelette_LancerTete_5: 4059744972356522372
+      Squelette_LancerTete_6: 4794647013106882344
+      Squelette_LancerTete_7: -8127411509642523933
+      Squelette_LancerTete_8: 7203927532946589805
+      Squelette_LancerTete_9: -6215376316595014089
+      frame_0: -1079138973
+      frame_1: 1836849338
+      frame_10: -1427719875
+      frame_11: 492010230
+      frame_12: 1162901241
+      frame_13: -529121500
+      frame_14: -1507128285
+      frame_15: 494100165
+      frame_2: 248571108
+      frame_3: 1913035433
+      frame_4: -86191540
+      frame_5: 654298358
+      frame_6: 1024387899
+      frame_7: -1538114142
+      frame_8: 762730863
+      frame_9: -1032189406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
