@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\lucie\\B2\\Game-YDAYS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\Sign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Sign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
+              "ToolTip": "C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T12:21:54.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sign.cs",
+              "DocumentMoniker": "C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\Sign.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sign.cs",
+              "ToolTip": "C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\Sign.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T11:59:34.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\lucie\\B2\\Game-YDAYS\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
