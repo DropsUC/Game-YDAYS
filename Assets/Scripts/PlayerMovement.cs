@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (value.isPressed && isGrounded)
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
+            rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
     }
 
@@ -94,15 +94,20 @@ public class PlayerMovement : MonoBehaviour
 
         if (rbTete != null)
         {
-            // Calcul de la direction vers la souris
-            Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
-            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, Camera.main.nearClipPlane));
-            Vector2 aimDirection = ((Vector2)mouseWorldPosition - (Vector2)throwPoint.position).normalized;
+            Vector2 aimDirection = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+
+            // Calcul de la direction vers la souris si elle existe
+            if (Mouse.current != null)
+            {
+                Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
+                Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, Camera.main.nearClipPlane));
+                aimDirection = ((Vector2)mouseWorldPosition - (Vector2)throwPoint.position).normalized;
+            }
 
             // Propulsion
             rbTete.linearVelocity = aimDirection * throwForce;
         }
-    }
+}
 
     void FixedUpdate()
     {

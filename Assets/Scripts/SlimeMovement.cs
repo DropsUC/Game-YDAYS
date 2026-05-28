@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class SlimeMovement : MonoBehaviour
 {
+    public float baseGravityScale = 3f;
+
     [Header("Mouvement Escargot")]
     public float moveSpeed = 6f;
     public float climbSpeed = 4f;
@@ -17,9 +19,10 @@ public class SlimeMovement : MonoBehaviour
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
     public Transform visuelTransform;
+    public Animator animator;
 
     private Vector2 moveInput;
-    private bool isGrounded;
+private bool isGrounded;
     private bool isOnWall;
     private Vector2 wallNormal;
     private bool isClimbing;
@@ -47,8 +50,7 @@ public class SlimeMovement : MonoBehaviour
     void FixedUpdate()
     {
         // 1. Détections
-        RaycastHit2D groundHit = Physics2D.Raycast(groundCheck.position, Vector2.down, 0.3f, groundLayer);
-        isGrounded = groundHit.collider != null;
+        isGrounded = CheckRaycast(groundCheck.position, Vector2.down, 0.3f);
         CheckWalls();
 
         // 2. Logique de grimpe
@@ -74,25 +76,71 @@ public class SlimeMovement : MonoBehaviour
 
             // Maintien au mur + mouvement vertical calculé
             rb.linearVelocity = new Vector2(-wallNormal.x * 2f, vMove);
-        }
-        else
-        {
+            }
+            else
+            {
             isClimbing = false;
-            rb.gravityScale = 3f;
+            rb.gravityScale = baseGravityScale;
             rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
-        }
+            }
 
-        HandleVisualRotation();
-    }
+            // --- MISE À JOUR DE L'ANIMATION (Chaque frame) ---
+            if (animator != null)
+            {
+            float horizontalSpeed = Mathf.Abs(rb.linearVelocity.x);
+            float verticalSpeed = Mathf.Abs(rb.linearVelocity.y);
+            
+            // Si on grimpe, on utilise la vitesse verticale ou l'input
+            float currentMoveSpeed = isClimbing ? Mathf.Max(horizontalSpeed, verticalSpeed) : horizontalSpeed;
+            
+            animator.SetFloat("Speed", currentMoveSpeed);
+            animator.SetBool("IsGrounded", isGrounded);
+            animator.SetBool("IsClimbing", isClimbing);
+            }
+
+            HandleVisualRotation();
+            }
 
     void CheckWalls()
     {
         isOnWall = false;
-        RaycastHit2D hitR = Physics2D.Raycast(transform.position, Vector2.right, 0.6f, groundLayer);
-        RaycastHit2D hitL = Physics2D.Raycast(transform.position, Vector2.left, 0.6f, groundLayer);
+        
+        RaycastHit2D hitR = CheckRaycastHit(transform.position, Vector2.right, 0.6f);
+        if (hitR.collider != null) 
+        { 
+            isOnWall = true; 
+            wallNormal = hitR.normal; 
+        }
+        else 
+        {
+            RaycastHit2D hitL = CheckRaycastHit(transform.position, Vector2.left, 0.6f);
+            if (hitL.collider != null) 
+            { 
+                isOnWall = true; 
+                wallNormal = hitL.normal; 
+            }
+        }
+    }
 
-        if (hitR.collider != null) { isOnWall = true; wallNormal = hitR.normal; }
-        else if (hitL.collider != null) { isOnWall = true; wallNormal = hitL.normal; }
+    // Fonction utilitaire pour ignorer le slime lui-même
+    private bool CheckRaycast(Vector2 origin, Vector2 direction, float distance)
+    {
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, direction, distance, groundLayer);
+        foreach (var hit in hits)
+        {
+            if (hit.collider.gameObject != gameObject) return true;
+        }
+        return false;
+    }
+
+    private RaycastHit2D CheckRaycastHit(Vector2 origin, Vector2 direction, float distance)
+    {
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, direction, distance, groundLayer);
+        foreach (var hit in hits)
+        {
+            if (hit.collider.gameObject != gameObject) return hit;
+        }
+        return new RaycastHit2D();
     }
 
     void HandleVisualRotation()

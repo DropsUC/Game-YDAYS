@@ -116,10 +116,10 @@ TextureImporter:
       name: squelette2_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 24
-        height: 53
+        width: 32
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,19 +138,19 @@ TextureImporter:
       name: squelette2_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 32
         y: 0
-        width: 25
-        height: 53
+        width: 32
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f9bb5932cb2d21f43a9b76f1c4ab0efc
+      spriteID: c0f239d7000000000800000000000000
       internalID: 2106797836
       vertices: []
       indices: 
@@ -160,19 +160,19 @@ TextureImporter:
       name: squelette2_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 64
         y: 0
-        width: 20
-        height: 53
+        width: 32
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0040a83df107ba147aab0dbb6754d3e5
+      spriteID: 258d2bb0000000000800000000000000
       internalID: 196270162
       vertices: []
       indices: 
@@ -182,19 +182,19 @@ TextureImporter:
       name: squelette2_3
       rect:
         serializedVersion: 2
-        x: 99
+        x: 96
         y: 0
-        width: 25
-        height: 53
+        width: 32
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b2b820794727ef24a86aa4d58daec219
+      spriteID: 9464e165000000000800000000000000
       internalID: 1444824649
       vertices: []
       indices: 
@@ -204,19 +204,19 @@ TextureImporter:
       name: squelette2_4
       rect:
         serializedVersion: 2
-        x: 133
+        x: 128
         y: 0
-        width: 23
-        height: 53
+        width: 32
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ded10c4833769ba41805c467b4780d24
+      spriteID: c98030c2000000000800000000000000
       internalID: 738396316
       vertices: []
       indices: 
@@ -227,18 +227,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 8
+        y: 0
         width: 32
-        height: 45
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b8ccaac61d225aa48bdc9ebe04a07f48
+      spriteID: 6200fec7000000000800000000000000
       internalID: 2096037926
       vertices: []
       indices: 
@@ -258,7 +258,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       squelette2_0: -3351225897669959037
       squelette2_1: 2106797836
