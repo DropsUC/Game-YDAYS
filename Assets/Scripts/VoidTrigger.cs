@@ -1,24 +1,16 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VoidTrigger : MonoBehaviour
 {
-    // Tag assigned to your player GameObjects (default is "Player")
-    [SerializeField] private string playerTag = "Player";
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the object entering the trigger is a player
-        if (collision.CompareTag(playerTag))
+        // 4. Dans cette fonction, vérifie si l'objet qui entre en collision possède le tag 'Player'
+        if (other.CompareTag("Player"))
         {
-            // Call the GameManager to reset the level
-            if (GameManager.Instance != null)
-            {
-                GameManager.Instance.OnPlayerDeath();
-            }
-            else
-            {
-                Debug.LogWarning("GameManager instance not found in the scene!");
-            }
+            // 5. Si c'est un joueur, recharge immédiatement la scène actuelle active
+            Debug.Log("Player fell into the void! Restarting scene...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
